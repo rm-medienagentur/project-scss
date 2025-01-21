@@ -1,0 +1,31 @@
+#header .inner {
+    background: #0d3174;
+}
+
+#tl_navigation .menu_level_1 li.current {
+    background-color: #0d3174;
+    border-left-color: #bed747;
+}
+
+#tmenu a:hover, #tmenu a.hover, #tmenu li:hover .h2, #tmenu .active .h2, #tmenu .burger button:hover {
+    background-color: #bed747;
+}
+
+#header h1 a{
+	display: block;
+	padding: 12px 12px 12px 43px;
+	background: url(/files/Inhalte/Bilder/logo_backend.png) no-repeat 3px center;
+	font-weight: 400;
+	background-size: 40px;
+	}
+
+@media screen and (max-width: 767px) {
+#header h1 a {
+    font-size: 0em;
+    padding: 16px;
+    margin: 4px;
+    overflow: hidden;
+    background: url(/files/Inhalte/Bilder/logo_backend.png) no-repeat 3px center;
+    background-size: 30px;
+    }
+}

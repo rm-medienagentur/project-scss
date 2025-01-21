@@ -1,0 +1,62 @@
+/*================================Basic Settings====================*/
+
+html {
+    font-size: 15px;
+	scroll-behavior: smooth;
+}
+
+body {
+    background: none no-repeat scroll 50% 0 #ecf2f5;
+    font-family: $font-secondary;
+    overflow-y: scroll;
+}
+
+
+.page {
+  max-width: 100%;
+  position: relative;
+}
+
+.clearfix {
+  clear:both;
+}
+
+a {
+  color: $color-primary;
+  &:hover {
+    color: $color-tertiary;
+    font-weight: inherit;
+  }
+}
+
+p {
+  text-align: justify;
+}
+
+.bg-tert {
+  background: $color-tertiary;
+}
+
+/*=============================================================Headlines*/
+h1 {
+font-family: $font-primary;
+color: $color-primary;
+font-size: 2rem; //Größen für die Desktopansicht stehen bei den MQs
+margin-top: 0.5rem;
+}
+
+	.invert h1 {
+  	color: white;
+}
+
+    h2 {
+    color: $color-primary;
+    font-family: $font-primary;
+    font-size: 1.8rem;
+}
+
+    h3 {
+    color: $color-tertiary;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
